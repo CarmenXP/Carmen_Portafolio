@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: azure;
+
+}
+.division{
+    height: 3px;
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header{
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+nav{
+    height: 60px;
+    border-bottom: solid 1px purple;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.bx-menu{
+    margin: 6px 18px 0px 0px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.content h1{
+    margin: 15px 0px 10px 0px;
+    text-align: center;
+}
+.content h2{
+    letter-spacing: 1.25px;
+    text-align: center;
+}
+.content_photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.social_icons{
+    text-align: center;
+    margin-top: 10px;
+}
+.social_icons > a > i{
+    color: rgb(180, 213, 229);
+    font-size: 35px;
+    margin: 12px
+}
+.about{
+    
+}
+.about h2{
+    margin-top: 10px;
+}
+.about_circle{
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float:left;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+}
+.my_skills{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 20px;
+}
+.tech_skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.skill{
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.skill > i{
+    background-color: #485563;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 25px;
+}
+h3{
+    margin:  8px 0;
+}
+h5{
+    margin: 5px 0;
+}
+li{
+    list-style: none;
+}
+.soft_skill i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.soft_skill > span{
+    font-size: 17px;
+}
+footer{
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(360deg, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(360deg, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px;
+}
